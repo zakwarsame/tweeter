@@ -4,9 +4,9 @@ Tweeter is a simple, single-page Twitter clone.
 
 ## Screenshots
 
-!["URL view page for a logged in user"](https://github.com/zakwarsame/tweeter/blob/master/screenshots/1.png)
+!["URL view page for a logged in user"](https://github.com/zakwarsame/tweeter/blob/master/screenshots/2.gif)
 
-!["Specific URL page"](https://github.com/zakwarsame/tweeter/blob/master/screenshots/2.png)
+!["Specific URL page"](https://github.com/zakwarsame/tweeter/blob/master/screenshots/1.png)
 
 ## Getting Started
 
