@@ -1,9 +1,9 @@
 nav {
   top: 0;
   left: 0;
-  height: 6rem;
+  height: rem;
   width: 100%;
-  background:transparent;
+  background-color: #86C232;
   padding: 1em 1em;
   color: white;
   z-index: 1;
@@ -39,11 +39,4 @@ nav {
 .arrow-icon:hover {
   cursor: pointer;
   color: #86C232;
-}
-
-/* Tablet Styles */
-@media only screen and (min-width: 1024px) {
-  nav{
-    background-color: #86C232;
-  }
 }
