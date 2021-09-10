@@ -1,0 +1,27 @@
+#error {
+  border: 3px solid #992c20;
+  margin: 24px;
+  background-color: crimson;
+  padding: 10px;
+  color: #fff;
+  display: none;
+  border-radius: 5px;
+}
+
+.error-item {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.error-item span{
+  padding: 0 1rem;
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 1024px) {
+  #error {
+    width: 70%;
+    justify-self: center;
+    margin-right: 70px;
+  }
+}

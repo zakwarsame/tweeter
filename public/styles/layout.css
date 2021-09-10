@@ -6,7 +6,9 @@
 html {
   box-sizing: border-box;
 }
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
@@ -15,11 +17,51 @@ html {
  */
 
 body {
-  color: #545149;
-  background-color: #f4f1ec;
+  color: #fff;
+  background-color: #222629;
   font-size: 24px;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 /*
  * Additional CSS can be defined below or in other CSS files, as per instructions
  */
+
+main {
+  width: 100%;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  text-align: center;
+}
+
+.scroll-btn {
+  display: none;
+  align-items: center;
+  font-size: 2rem;
+  color: #fff;
+  text-decoration: none;
+  justify-content: center;
+  opacity: 1;
+  transition: .5s;
+  background: #86c232;
+  position: fixed;
+  z-index: 1;
+  bottom: 1rem;
+  right: 32px;
+  height: 60px;
+  width: 60px;
+  border-radius: 5px;
+  bottom: 32px;
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 1024px) {
+  main {
+    display: flex;
+    flex-direction: row;
+
+    margin-top: 7rem;
+  }
+}

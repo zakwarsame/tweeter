@@ -1,0 +1,49 @@
+nav {
+  top: 0;
+  left: 0;
+  height: 6rem;
+  width: 100%;
+  background:transparent;
+  padding: 1em 1em;
+  color: white;
+  z-index: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  position: fixed;
+}
+
+.logo {
+  font-family: "Bungee", sans-serif;
+  letter-spacing: .4em;
+  color: #fff;
+}
+
+.write-tweet {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.arrow-icon {
+  color: white;
+  
+  position: relative;
+  animation-name: initial;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.arrow-icon:hover {
+  cursor: pointer;
+  color: #86C232;
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 1024px) {
+  nav{
+    background-color: #86C232;
+  }
+}
