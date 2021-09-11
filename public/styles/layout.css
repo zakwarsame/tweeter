@@ -48,7 +48,6 @@ main {
   background: #86c232;
   position: fixed;
   z-index: 1;
-  bottom: 1rem;
   right: 32px;
   height: 60px;
   width: 60px;
@@ -61,7 +60,16 @@ main {
   main {
     display: flex;
     flex-direction: row;
-
     margin-top: 7rem;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .scroll-btn {
+    font-size: .7em;
+    height: 2em;
+    width: 2em;
+    bottom: 20px;
+    right: 24px;
   }
 }

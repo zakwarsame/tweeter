@@ -162,5 +162,6 @@ $(document).ready(function () {
 
   $( ".arrow-icon" ).click(function() {
     $( "#tweet-form" ).toggle( "fast");
+    $('#tweet-text').focus();
   });
 });

@@ -190,6 +190,7 @@ form{
   }
   .btn-submit { 
     font-size: 0.7em;
+    padding: .3em 1.5em;
   }
   .tweet {
     padding: 2rem 2rem 1rem 2rem;
