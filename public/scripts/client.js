@@ -151,7 +151,7 @@ $(document).ready(function () {
   /*
    * Below are scroll buttons helping navigate the page
    * first one is the icon at the bottom
-   * second one is the arrow at the top. Currently doesn't hide the box
+   * second one is the arrow at the top.
    */
 
   //Click event to scroll to top
@@ -160,8 +160,7 @@ $(document).ready(function () {
     return false;
   });
 
-  $(".arrow-icon").click(function () {
-    $("html, body").animate({ scrollTop: $(".container").offset().top }, 800);
-    return false;
+  $( ".arrow-icon" ).click(function() {
+    $( "#tweet-form" ).toggle( "fast");
   });
 });
