@@ -161,7 +161,7 @@ $(document).ready(function () {
   });
 
   $( ".arrow-icon" ).click(function() {
-    $( "#tweet-form" ).toggle( "fast");
+    $( "#tweet-form" ).toggle(300);
     $('#tweet-text').focus();
   });
 });
